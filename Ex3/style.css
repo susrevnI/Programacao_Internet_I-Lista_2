@@ -1,0 +1,39 @@
+body {
+    background-color: blanchedalmond;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1em;
+    height: 40vw;
+    margin: 1em;
+}
+
+main .item {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main #item-1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+main #item-2 {
+    grid-column: span 2;
+    grid-row: 1;
+}
+
+main #item-3 {
+    grid-column: span 2;
+    grid-row: 2;
+}
+
+main #item-4 {
+    grid-column: 3;
+    grid-row: 2;
+}
