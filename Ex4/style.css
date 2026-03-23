@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: blanchedalmond;
 }
@@ -13,12 +19,8 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifS;
 }
 
-h1 {
-    margin: 0;
-}
 
 p {
-    margin: 0;
     font-size: large;
     font-weight: bold;
 }
